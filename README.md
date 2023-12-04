@@ -20,9 +20,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Azure Subscription
 - Files For Install 
-- Item 3
-- Item 4
-- Item 5
 
 <h2>Installation Steps</h2>
 

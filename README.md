@@ -65,6 +65,9 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
 
       - Browse to your directory of C:\PHP
  - Reload IIS (Open IIS, Stop and Start the server)
+   <P>
+     <img src="https://i.imgur.com/tPxLSDP.png"/> 
+   </P>
  - Install osTicket
    - Download osTicket from the Installation Files Folder
    - Extract and copy “upload” folder to c:\inetpub\wwwroot
@@ -72,7 +75,11 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
      
 - Reload IIS (Open IIS, Stop and Start the server)
 - Go to sites -> Default -> osTicket
-  - On the right, click “Browse *:80”
+  - On the right, click “Browse *:80” 
+ <P>
+  <img src="https://i.imgur.com/noybem3.png"/>
+</P>  
+  
 - Some extensions may not be enabled
   - Go back to IIS, sites -> Default -> osTicket
   - Double-click PHP Manager

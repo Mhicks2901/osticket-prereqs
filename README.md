@@ -132,7 +132,7 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
   </P>
   
     - Input Your MySQL Database name from Heidi that you just made
-    - 
+    
 
 - Clean up
    - Delete C:\inetpub\wwwroot\osTicket\setup

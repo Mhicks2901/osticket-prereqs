@@ -62,7 +62,8 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
    <P>
      <img src="https://i.imgur.com/2WYoWxq.png"/>
    </P>
-    - Browse to your C:\PHP
+
+      - Browse to your directory of C:\PHP
  - Reload IIS (Open IIS, Stop and Start the server)
  - Install osTicket
    - Download osTicket from the Installation Files Folder

@@ -45,5 +45,27 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
    - Then go into Common HTTP Features and make sure ALL folders are checked. Then okay and wait for the files to be installed
 
 - From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
+- From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
+- Create the directory C:\PHP
+- From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+- From the Installation Files, download and install VC_redist.x86.exe.
+- From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+  - Typical Setup
+  - Launch Configuration Wizard (after install)
+  - Stand Configuration
+  - Choose a password
+ - Open IIS as an Admin
+ - Register PHP from within IIS
+ - Reload IIS (Open IIS, Stop and Start the server)
+ - Install osTicket
+   - Download osTicket from the Installation Files Folder
+   - Extract and copy “upload” folder to c:\inetpub\wwwroot
+   - Within c:\inetpub\wwwroot, Rename “upload” to “osTicket”
+   
+
+
+  
+  
+
 
 

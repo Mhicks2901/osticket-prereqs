@@ -79,7 +79,10 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
  <P>
   <img src="https://i.imgur.com/noybem3.png"/>
 </P>  
-  
+ <P>
+  <img src="https://i.imgur.com/4CGr8J8.png"/>
+ </P>
+ 
 - Some extensions may not be enabled
   - Go back to IIS, sites -> Default -> osTicket
   - Double-click PHP Manager
@@ -88,7 +91,7 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
   - Enable: php_intl.dll
   - Enable: php_opcache.dll
   - Refresh the osTicket site in your browse, observe the changes
- 
+  
 - Rename: ost-config.php
   - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php

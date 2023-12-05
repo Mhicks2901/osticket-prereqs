@@ -87,6 +87,9 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
   - Go back to IIS, sites -> Default -> osTicket
   - Double-click PHP Manager
   - Click “Enable or disable an extension”
+    <P>
+    <img src="https://i.imgur.com/S626ymX.png"/>
+    </P>
   - Enable: php_imap.dll
   - Enable: php_intl.dll
   - Enable: php_opcache.dll
@@ -101,17 +104,35 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
   - New permissions -> Everyone -> All
 
 - Continue Setting up osTicket in the browser (click Continue)
-  - Choose a name for the helpdesk
-  - Add email address so you can receive email from customers
+  - Choose a name for the helpdesk and an email
+  - Add an Admin user with credentials
+   <P>
+    <img src="https://i.imgur.com/gzbcgDN.png"/>
+  </P>
+  
+   - Proceed to next step before installing
     
 - From the Installation Files, download and install HeidiSQL.
   - Open Heidi SQL
-  - Create a new session, make your desired username and password
-  - Connect to the session
-  - Create a database named by your choosing
+     <P>
+    <img src="https://i.imgur.com/q165OEu.png"/>
+    </P
+      
+   - Create a new session, input name and password from MySQL
+   - Open the session
+   - Create a database named by your choosing
+     <P>
+       <img src="https://i.imgur.com/nufjt2M.png"/>
+     </P>
+   
  
 - Continue Setting up osticket in the browser
-  - In MySQL put in your database name, username and password
+  <P>
+    <img src="https://i.imgur.com/vla7eDX.png"/>
+  </P>
+  
+    - Input Your MySQL Database name from Heidi that you just made
+    - 
 
 - Clean up
    - Delete C:\inetpub\wwwroot\osTicket\setup

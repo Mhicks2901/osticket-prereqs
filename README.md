@@ -29,9 +29,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   - username (whatever you choose)
   - Password (whatever you choose)
 
-After making our Virtual Machine we will log into it using remote desktop. Inside our Virtual machine we will need to install/enable IIS in Windows
- - Go into your control panel (inside the VM)
- - Inside the control panel go into programs and than Turn on Windows features on or off
+- After making our Virtual Machine we will log into it using remote desktop. Inside our Virtual machine we will need to install/enable IIS in Windows
+  - Go into your control panel (inside the VM)
+  - Inside the control panel go into programs and than Turn on Windows features on or off
    <p>
      <img src="https://i.imgur.com/D50bfHe.png" width="400" height="200"/>
    </p>
@@ -100,8 +100,14 @@ After making our Virtual Machine we will log into it using remote desktop. Insid
   - To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 - Assign Permissions: ost-config.php
-  - Disable inheritance -> Remove all
-  - New permissions -> Everyone -> All
+   - Right click the renamed ost-config.php and click on properties
+   - Click Advanced -> Disable inheritance -> Remove all
+ <img src="https://i.imgur.com/XKh7WbT.png"/>
+ 
+   - New permissions -> Everyone -> All
+ <img src="https://i.imgur.com/ZwiqJcm.png"/>
+ <img src="https://i.imgur.com/JtBteDl.png"/>
+ <img src="https://i.imgur.com/3mMwnF5.png"/>
 
 - Continue Setting up osTicket in the browser (click Continue)
   - Choose a name for the helpdesk and an email

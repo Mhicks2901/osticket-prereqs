@@ -40,9 +40,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
    </P>
      
    - Make sure the Internet Information Services box is checked.
-   - Then turn on the World Wide Web Services is checked.
-   - Then go into the Application Development Features and then check the CGI box. Collapse that folder
-   - Then go into Common HTTP Features and make sure ALL folders are checked. Then okay and wait for the files to be installed
+   - Check World Wide Web Services box.
+   - In the Application Development Features check the CGI box. Collapse that folder
+   - Go into Common HTTP Features and make sure ALL folders are checked. Then okay and wait for the files to be installed
 
 - From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 - From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
